@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+    padding: 15px 10px;
+    background-color:white ;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 8px 0 black;
+    z-index: 99;
+}
+
+nav p a, nav ul li a {
+   text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+}
+
+nav p a span {
+  font-weight: 900;
+  margin-right: 10px;
+}
+nav ul li a:hover {
+   background-color: gainsboro;
+    color: black;
+}
+
+nav ul .dropdown {
+  position: relative;
+}
+
+nav p a:hover, nav ul li a:hover {
+    background-color: gainsboro;
+} 
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin: -18px 20px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner p {
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.banner p span {
+  background-color: rgba(0, 0, 0, 0.626);
+  padding: 20px;
+  font-weight: 900;
+}
+
+
+.project {
+  padding: 80px 40px;
+}
+
+.project .names .name p{
+  text-align: justify;
+  position: absolute;
+  z-index: 99;
+  color: #fff;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.project .names .name img{
+  width: 300px;
+  border: 2px;
+  position: relative;
+}
+
+.project .names {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+} 
+   
+.about {
+  padding: 80px 20px;
+}
+
+.about .abouts {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+} 
+
+.about .abouts .abt{
+  width: 300px;
+}
+
+.about .abouts .abt img {
+  width: 100%;
+}
+
+.about .abouts .abt .text h3 {
+  font-weight: 100;
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+.about .abouts .abt .text .mid {
+  font-weight: 100;
+  font-size: 20px;
+  padding: 12px 0;
+  color: rgba(0, 0, 0, 0.587);
+}
+
+.about .abouts .abt .text p {
+   font-weight: 100;
+  font-size: 15px;
+  padding: 10 0;
+}
+
+.about .abouts .abt .text button{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 13px;
+  border: none;
+  outline: none;
+}
+
+.about .abouts .abt .text button:hover{
+  background-color: gainsboro;
+}
+
+.contact {
+  padding: 80px 20px;
+} 
+.line1 {
+  width: 100%;
+  height: .1px;
+  margin: 10px 0px 0px;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+.contact .mid {
+  padding-top: 20px;
+}
+
+.contact .down form input {
+  width: 100%;
+  padding-top: 10px;
+  margin: 5px;
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+}
+
+.contact .down form button {
+   margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+
+.contact .down form button:hover{
+  background-color: gainsboro;
+  color: black;
+}
+
+.Map {
+  margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  padding-top: 50px;
+}
+
+footer p a {
+    color: green;
+}
+
+footer p a:hover {
+    color: green;
+}
+
+
